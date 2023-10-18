@@ -54,13 +54,16 @@
         </div>
         {{-- <div class="text-gray-500"></div> --}}
 
-        <div class="flex px-2 py-6"> 
-
-            <a href="#" class="flex-none">
+        <div class="flex flex-1 px-2 py-6"> 
+            <div class="flex-none">
+                <a href="#">
                 <img src="https://source.unsplash.com/200x200/?face&crop=face&v-1" class="w-14 h-14 rounded-xl"/>
             </a>
 
-            <div class="mx-4"> 
+            </div>
+            
+
+            <div class="w-full mx-4"> 
 
                 <h4 class="text-xl font-semibold"> 
                     <a href="#" class="hover:underline"> Lorem ipsum dolor sit amet, consectetur</a>
@@ -68,7 +71,7 @@
 
                 <div class="text-gray-600 mt-3 line-clamp-3">
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Versatur dicere sensu praesertim ferae litteras civitas discidia nascuntur, splendore. Eosque sanos placet praeceptrice consequuntur, nominata defuit laudabilis perturbatur eorum, aequitatem, graecum labores chaere ortum imperio fecit delectari, lucifugi nondum ipsa physicis certae requirere haec, depravare hinc viderer studium inani repellere et contineri, fatendum vis morbis vester existimo graeco deterruisset sapientes affirmatis videretur, audire arbitrium andriam accurate conversa, desiderat fabulas dissentiet, eidola hanc istis eveniet insidiarum controversia acri, malle potione adhuc iudicare.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Versatur dicere sensu praesertim ferae litteras civitas discidia nascuntur, splendore. Eosque sanos placet praeceptrice consequuntur, nominata de.
 
                 </div>
 
@@ -88,7 +91,8 @@
                     <div class="flex items-center space-x-2">
 
                         <div class="bg-gray-200 text-xxs font-bold text-center uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4 py-2 px-2 rounded-full">Open</div>
-                        <button class="relative text-center bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-2 px-3 transition duration-150 ease-in"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <button class="relative text-center bg-gray-100 hover:bg-gray-200 border rounded-full h-7 py-2 px-3 transition duration-150 ease-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                       </svg>
                       <ul class="absolute w-44 text-left font-semibold shadow-dialog rounded-xl py-3 ml-8 hover:shadown-dialog transition duration-150 ease-in">
